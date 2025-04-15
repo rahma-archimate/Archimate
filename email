@@ -1,0 +1,38 @@
+Voici un **tableau comparatif** des principaux outils **d’envoi d’e-mails en masse avec pièces jointes**, **on-premise (sur site)**, adaptés à l’envoi de **données sensibles ou confidentielles**. Ces outils sont conçus pour un **environnement sécurisé**, sans dépendance à un fournisseur cloud.
+
+---
+
+### 📊 **Comparatif des Outils On-Premise pour Envoi d’E-mails en Masse**
+
+| Outil | Licence & Prix (indicatif) | Pièces jointes | Sécurité (Chiffrement, Authent.) | Personnalisation (variables, modèles) | Intégration LDAP/AD | Journalisation & Audit | Notes |
+|-------|-----------------------------|----------------|----------------------------------|---------------------------------------|----------------------|-------------------------|-------|
+| **Gammadyne Mailer** | Licence perpétuelle : ~160 USD | ✅ Oui | SSL/TLS, Auth SMTP | ✅ Fusion (merge), HTML/texte | ❌ Non natif, via script | ✅ Logs détaillés | Léger, très personnalisable |
+| **SendBlaster Pro + SMTP Local** | 129 USD licence unique | ✅ Oui | SSL, authentification | ✅ Modèles + fusion | ❌ Non | ✅ Historique local | UI simple, usage PME |
+| **MaxBulk Mailer** | ~69€ licence perpétuelle | ✅ Oui | SSL/TLS | ✅ Fusion, HTML/texte | ❌ Non | ✅ Fichiers log | Multiplateforme |
+| **Listserv HPO (de L-Soft)** | Environ 7 500 USD/an (variable) | ✅ Oui | ✅ Fort : S/MIME, authentification, listes fermées | ✅ Avancé, scripting | ✅ Oui | ✅ Très complet | Très sécurisé, pro |
+| **MailsDaddy Email Sender** | 99 USD licence unique | ✅ Oui | SSL, Authentification | ✅ HTML, variables | ❌ Non | ✅ Fichier local | Bon rapport qualité/prix |
+| **Mailtrain (auto-hébergé)** | Gratuit (Open-source) | ✅ Oui (via NodeMailer config) | SSL, DKIM, SPF si SMTP bien configuré | ✅ HTML, Handlebars | ✅ Oui via LDAP middleware | ✅ Historique | Requiert admin Linux |
+| **Postal (open source)** | Gratuit | ✅ Oui | ✅ TLS, SPF, DKIM | ✅ Via API ou interface | ✅ via extensions | ✅ Logs complets | Puissant mais complexe |
+
+---
+
+### 🔐 **Remarques de Sécurité**
+
+- Pour tous les outils, **le canal SMTP utilisé doit être sécurisé** (avec SSL/TLS, SPF, DKIM, DMARC).
+- Le stockage local des données sensibles doit être **chiffré** (ex : via disque ou volume chiffré, ou chiffrement dans la base).
+- Pour le maximum de sécurité, coupler avec une **passerelle d’e-mail interne (ex : Microsoft Exchange local ou Postfix/Exim)** configurée avec des règles précises.
+
+---
+
+### 🧩 Recommandations selon le profil :
+
+| Besoin principal | Recommandé |
+|------------------|------------|
+| Environnement entreprise, sécurité renforcée, audit | **Listserv HPO** |
+| PME, interface simple, emails internes | **Gammadyne Mailer** |
+| Envoi automatisé scriptable (DevOps) | **Mailtrain** ou **Postal** |
+| Budget limité, usage ponctuel | **MaxBulk Mailer** ou **SendBlaster** |
+
+---
+
+Souhaites-tu que je t’aide à configurer l’un d’eux ou que je te fournisse un guide d’installation (par ex. pour Mailtrain ou Postal) ?
