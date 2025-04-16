@@ -1,0 +1,82 @@
+🔹 Option 1 – Étapes pour activer un Copilot "natif" avec Microsoft Search + SharePoint
+🧩 Étape 1 – Structurer les contenus dans SharePoint
+Identifier la bibliothèque cible :
+
+Ex. : Avis-et-Positionnements dans un site SharePoint TI.
+
+Vérifier les formats de documents :
+
+Word, PDF, PowerPoint, Excel : OK.
+
+S’assurer qu’ils contiennent des titres/clés clairs.
+
+Ajouter des métadonnées (important pour la recherche intelligente) :
+
+Sujet (Cloud, Sécurité, Données, etc.)
+
+Date de publication
+
+Auteur
+
+Type (Avis, Recommandation, Position officielle)
+
+Contexte ou projet associé
+
+🔍 Étape 2 – Activer et configurer Microsoft Search
+Aller dans Microsoft 365 Admin Center > Search & Intelligence.
+
+Créer un vertical personnalisé (ex : "Positionnements TI") :
+
+Cela permettra d’avoir un filtre spécifique dans la recherche Microsoft.
+
+Créer un custom result type pour afficher joliment les résultats (titre, résumé, lien).
+
+Vérifier que SharePoint est bien indexé automatiquement (normalement c’est natif).
+
+🤖 Étape 3 – Activer Copilot (si licence disponible)
+Vérifier que les utilisateurs cibles ont une licence M365 avec Copilot.
+
+Activer l’expérience Copilot dans les apps comme :
+
+Word / Outlook / Teams / SharePoint Online
+
+Dans Word par exemple, tu peux écrire :
+
+“Résume-moi notre positionnement sur les bases NoSQL”
+
+Le Copilot va automatiquement utiliser Microsoft Search pour retrouver les documents SharePoint.
+
+🧪 Étape 4 – Test de scénarios
+Tu peux maintenant tester des cas concrets :
+
+✅ Exemples de requêtes :
+
+"Quelle est notre position sur l’hébergement cloud externe ?"
+
+"Avons-nous une recommandation sur l’utilisation de MongoDB ?"
+
+"Y a-t-il un avis sur l’intégration de systèmes via API REST ?"
+
+💡 Copilot va :
+
+Chercher dans SharePoint les documents qui contiennent une réponse,
+
+T’en montrer un extrait,
+
+Et te proposer de l’ouvrir directement ou de générer un résumé.
+
+🧰 Outils nécessaires :
+
+Outil	Rôle
+Microsoft SharePoint Online	Stockage des documents
+Microsoft Search	Indexation et moteur de recherche
+Microsoft Copilot (M365)	Interface utilisateur pour poser des questions
+Microsoft Admin Center	Configuration de Search et sécurité
+🔐 Sécurité et gouvernance
+Copilot respecte les droits d’accès SharePoint.
+
+Chaque utilisateur ne voit que les documents auxquels il a accès.
+
+Tu peux créer des permissions fines si nécessaire.
+
+Souhaites-tu un document PDF ou Word de cette procédure pour la partager avec ton équipe ou direction
