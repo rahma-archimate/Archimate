@@ -1,0 +1,81 @@
+
+
+---
+
+### 📌 **Avis d’architecture – Positionnement du service de soutien informatique**
+
+#### Contexte
+Dans le cadre d’une réflexion stratégique sur l’organisation des services, la Direction du centre de service à la clientèle souhaite valider si le **service de soutien informatique** est **bien positionné** au sein du **service du soutien aux demandes de services technologiques**.
+
+#### Analyse
+Après échanges avec les parties prenantes et en tenant compte des objectifs stratégiques de la direction, plusieurs constats se dégagent :
+
+1. **Alignement stratégique partiel**  
+   Le soutien informatique contribue aux objectifs du centre de service à la clientèle en assurant la disponibilité et la performance des outils technologiques utilisés par les équipes. Toutefois, son positionnement actuel ne permet pas toujours une contribution optimale aux initiatives d’amélioration de l’expérience client ou d’innovation numérique.
+
+2. **Flou dans les responsabilités**  
+   Des zones grises subsistent quant aux responsabilités du soutien informatique, notamment en matière de gestion des demandes complexes ou de coordination avec les équipes de développement, d’architecture ou de sécurité. Cela peut entraîner des délais, des redondances ou un manque de redevabilité claire.
+
+3. **Capacité limitée à évoluer**  
+   Le positionnement actuel semble peu propice à une montée en maturité du soutien informatique vers des services plus proactifs, analytiques ou automatisés (ex. : intelligence artificielle, intégration avec les processus d’affaires). Ce modèle risque de freiner l’adaptation aux besoins futurs.
+
+4. **Opportunités de meilleure intégration**  
+   Un repositionnement stratégique pourrait permettre une meilleure intégration du soutien informatique dans des chaînes de valeur plus larges, notamment en soutien aux parcours utilisateurs, aux projets de transformation numérique ou aux initiatives de gestion de la connaissance.
+
+#### Recommandation
+Il est recommandé de :
+- **Réévaluer le positionnement du service de soutien informatique** afin d’assurer une meilleure cohérence avec les objectifs stratégiques de la Direction du centre de service à la clientèle.
+- **Clarifier les rôles et responsabilités** via une cartographie des services et une gouvernance adaptée.
+- Envisager un **modèle hybride** où le soutien informatique conserve une proximité fonctionnelle avec le service à la clientèle tout en étant rattaché (ou fortement connecté) à une entité TI transversale assurant la cohérence technologique, la mutualisation des expertises et l’innovation continue.
+
+#### Conclusion
+Un repositionnement bien réfléchi permettrait d’optimiser les synergies entre les équipes, d’améliorer la satisfaction des utilisateurs internes, et de renforcer la contribution du soutien informatique à la mission globale de l’organisation.
+
+---
+
+Voici une série de **questions préparatoires stratégiques et tactiques** que tu pourrais poser au client pour bien comprendre le besoin et pouvoir donner un **avis ou positionnement pertinent** en architecture d’entreprise.
+
+---
+
+### 🎯 **Objectif de la rencontre**
+Valider si le **service de soutien informatique** est **bien positionné** au sein de la **Direction du centre de service à la clientèle**, plus précisément dans le **service du soutien aux demandes de services technologiques**.
+
+---
+
+### 🧭 Questions stratégiques
+1. **Quels sont les objectifs stratégiques** de la Direction du centre de service à la clientèle en lien avec le soutien informatique?
+2. En quoi le **positionnement actuel** du soutien informatique contribue-t-il ou freine-t-il l’atteinte de ces objectifs?
+3. Avez-vous évalué d’autres modèles de positionnement? Si oui, pourquoi ont-ils été écartés?
+4. Comment le soutien informatique est-il **perçu par les autres directions** ou services?
+5. Y a-t-il une volonté de faire évoluer l’offre du soutien informatique (par exemple, vers plus de proactivité, d'automatisation ou d’intégration avec d'autres services)?
+
+---
+
+### 🧩 Questions organisationnelles / fonctionnelles
+6. Quelles sont les **principales responsabilités** actuelles du service de soutien informatique dans ce positionnement?
+7. Quels sont les **canaux de communication** et d’escalade entre les équipes?
+8. Quelles **interdépendances** existent avec d'autres services (TI, sécurité, architecture, projets, etc.)?
+9. Est-ce que les rôles et responsabilités sont **clairement définis** et compris par toutes les parties?
+10. Quelle est la **structure de gouvernance** autour de ce service?
+
+---
+
+### 📊 Questions opérationnelles et de performance
+11. Quelles sont les **mesures de performance** ou KPIs suivis pour ce service?
+12. Avez-vous des données sur la **satisfaction des utilisateurs** internes?
+13. Quels sont les **principaux irritants** ou points faibles identifiés dans le fonctionnement actuel?
+14. Quelle est la **capacité actuelle** du service à répondre à la demande?
+15. Comment les demandes technologiques sont-elles **priorisées et traitées**?
+
+---
+
+### 🔄 Questions d’évolution et de transformation
+16. Y a-t-il des **changements prévus** dans les prochaines années (nouvelles technologies, transformation numérique, centralisation/décentralisation)?
+17. Le modèle actuel permet-il une **évolutivité** et une bonne **agilité organisationnelle**?
+18. Avez-vous identifié des **risques ou écarts** liés à ce positionnement (conformité, sécurité, efficacité, redondance)?
+19. Souhaitez-vous **mieux intégrer ce service** dans une chaîne de valeur ou un parcours client spécifique?
+20. Quel serait pour vous le **scénario idéal** en termes de positionnement, et pourquoi?
+
+---
+
+Souhaites-tu que je t’aide à rédiger un **avis formel ou un compte rendu** après la rencontre selon les réponses obtenues?
