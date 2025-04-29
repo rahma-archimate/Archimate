@@ -1,0 +1,35 @@
+desutude 
+🔧 1. Établir une gouvernance claire sur les responsabilités
+Formaliser les règles de responsabilité partagée (Infrastructure vs Applicatif).
+
+Exemple : vous vous engagez à maintenir un environnement sécuritaire/supporté, mais les clients doivent maintenir leurs applications compatibles avec les versions OS/middleware supportées.
+
+📆 2. Mettre en place un cycle de vie technologique commun (roadmap conjointe)
+Partagez un calendrier de désuétude à l’avance (12-24 mois), avec les dates butoirs de fin de support (EOL) des systèmes que vous hébergez.
+
+Permettez aux clients de planifier proactivement les migrations.
+
+Offrez une matrice de compatibilité pour que les clients sachent quelles versions sont compatibles avec quelles stacks.
+
+☁️ 3. Favoriser la virtualisation ou la conteneurisation
+Offrez aux clients la possibilité d'héberger leurs applications dans des VM ou conteneurs isolés, pour faciliter les mises à jour de l'infrastructure sous-jacente sans affecter directement l'applicatif.
+
+Cela permet d’émuler un environnement ancien plus longtemps tout en mettant à jour l’infra physique.
+
+🔄 4. Offrir des services de transition/migration
+Proposer un service de soutien à la modernisation des applications ou à leur replatforming.
+
+Cela pourrait inclure : des outils d’analyse de compatibilité, un accompagnement technique, ou même des environnements temporaires hybrides pour tests.
+
+💬 5. Communication et suivi régulier avec les clients
+Organisez des comités techniques réguliers avec les clients pour suivre l’état des applications, des serveurs, des obsolescences.
+
+Utilisez des outils comme des dashboards partagés pour montrer les niveaux de conformité et de risques.
+
+🧾 6. Mettre en place des clauses contractuelles claires
+Intégrer dans les ententes de service (SLA) des clauses sur la gestion de la désuétude, les mises à jour obligatoires, et les responsabilités des clients.
+
+Prévoir des mesures de mitigation ou des coûts additionnels si un client choisit de rester sur un environnement désuet (mode legacy isolé avec coût supplémentaire, par exemple).
+
+🧠 7. Identifier les applications critiques et proposer des exceptions justifiées
+Pour les applications très critiques ou impossibles à migrer à court terme, offrir un support étendu temporaire avec encadrement des risques (patching personnalisé, sandbox, etc.).
