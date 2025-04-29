@@ -118,3 +118,91 @@ Cordialement,
 **[Votre nom / équipe]**  
 Architecte d’entreprise – [Nom de l’établissement]
 
+
+
+Voici une **présentation structurée** que tu peux utiliser pour expliquer la situation, les constats, les enjeux et les recommandations face au problème de désuétude lié aux IAP (Indications d’Applications Particulières), même avec des plans de communication en place.
+
+---
+
+### 📊 Présentation – **Proposition de changement IAP et gouvernance de la désuétude**
+
+---
+
+#### 🏛️ **Contexte**
+
+- Notre établissement fournit des **services d’infrastructure** aux organismes partenaires (serveurs physiques, OS, middleware).
+- Les clients sont responsables de la **couche applicative**.
+- Certaines applications sont qualifiées d’**Indications d’Applications Particulières (IAP)** car elles reposent sur des environnements obsolètes ou rigides.
+
+---
+
+#### ⚠️ **Problème observé**
+
+- Malgré la mise en place de **plans de communication et de roadmaps techniques** partagés :
+  - Plusieurs clients **reportent ou bloquent les mises à jour** nécessaires.
+  - Les environnements obsolètes sont **maintenus au-delà de leur cycle de vie**.
+  - Cela engendre des **risques importants** :
+
+| Risque                   | Impact potentiel                                   |
+|--------------------------|----------------------------------------------------|
+| Vulnérabilités de sécurité | Exposition aux attaques, non-conformité ISO/SGSI  |
+| Incompatibilité croissante | Coût de maintien élevé, incidents techniques     |
+| Frein à l’évolution       | Empêche l’adoption de nouvelles technologies      |
+| Charge opérationnelle     | Besoin de maintenir des exceptions manuelles      |
+
+---
+
+#### 🎯 **Objectifs de la démarche**
+
+1. Établir une **gouvernance formelle des IAP**.
+2. Mettre en place des **mesures encadrées pour les cas d’exception**.
+3. Réduire les écarts avec la feuille de route technologique.
+4. Assurer la **sécurité, la conformité et la pérennité** de notre infrastructure partagée.
+
+---
+
+#### ✅ **Recommandations**
+
+##### 1. **Gouvernance renforcée des IAP**
+- Cadre officiel définissant les règles :
+  - Durée de vie maximale d’une IAP (ex. 12-18 mois max)
+  - Revue annuelle des IAP par comité de gouvernance
+  - Engagement de migration documenté
+
+##### 2. **Mesures d’exception encadrées**
+- Environnements isolés (VM, conteneurs, sandbox)
+- Coût additionnel pour maintien hors-norme
+- Acceptation des risques par le client (formalisée)
+
+##### 3. **SLA révisés avec clauses d’obsolescence**
+- Engagement du client à maintenir la compatibilité
+- Périodes de transition limitées et planifiées
+- Clause de retrait de service en dernier recours
+
+##### 4. **Indicateurs de suivi**
+- Taux de conformité technologique par client
+- Nombre d’IAP actives et par niveau de risque
+- Délais de migration moyens observés
+
+---
+
+#### 💬 **Communication client adaptée**
+
+- Format : **préavis structuré** + suivi personnalisé
+- Nouveau modèle de message : « Proposition de changement IAP »
+- Intégration dans les **comités techniques** et les tableaux de bord partagés
+
+---
+
+#### 🧭 **Prochaine étape**
+
+| Étape                          | Échéance        |
+|-------------------------------|-----------------|
+| Validation du modèle IAP       | Mois en cours   |
+| Communication initiale         | Mois +1         |
+| Lancement des revues IAP       | Mois +2         |
+| Intégration dans SLA client    | Mois +3         |
+
+---
+
+Souhaites-tu que je transforme cela en **PowerPoint prêt à présenter** (avec un visuel clair) ?
