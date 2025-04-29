@@ -33,3 +33,88 @@ Prévoir des mesures de mitigation ou des coûts additionnels si un client chois
 
 🧠 7. Identifier les applications critiques et proposer des exceptions justifiées
 Pour les applications très critiques ou impossibles à migrer à court terme, offrir un support étendu temporaire avec encadrement des risques (patching personnalisé, sandbox, etc.).
+
+
+Parfait. Voici une **proposition structurée** pour chacun :
+
+---
+
+## 🧭 1. **Plan de gouvernance de la désuétude (infra/applicatif)**
+
+### 🎯 **Objectif**
+Assurer la pérennité, la sécurité et l’évolutivité des services d’infrastructure tout en responsabilisant les clients quant à la compatibilité de leurs applications hébergées.
+
+### 🧱 **Principes**
+1. **Responsabilité partagée** :
+   - **Établissement fournisseur** :
+     - Gère les couches matérielles, OS, middleware et plateformes de base (ex : serveurs web).
+     - Publie et maintient une roadmap de mise à jour.
+   - **Client** :
+     - Est responsable de la compatibilité applicative.
+     - S'engage à suivre les évolutions planifiées.
+
+2. **Transparence** :
+   - Feuilles de route partagées (EOL, mise à jour planifiées).
+   - Communication proactive des changements majeurs.
+
+3. **Flexibilité encadrée** :
+   - Possibilité d’environnements dérogatoires en mode « Legacy géré » (avec approbation, coûts supplémentaires, et plan de sortie).
+
+---
+
+### 🗂️ **Structure du plan**
+#### 1. **Classification des composants**
+| Couche              | Fournisseur | Client |
+|---------------------|-------------|--------|
+| Serveur physique     | ✅          | ❌     |
+| OS, patchs           | ✅          | ❌     |
+| Middleware (IIS, Tomcat, etc.) | ✅ | ❌     |
+| Base de données (moteur) | ✅     | ❌     |
+| Schémas / données / applis | ❌     | ✅     |
+
+#### 2. **Cycle de vie des technologies**
+- Échelle : [Disponible] → [Supportée] → [Planifiée pour retrait] → [Fin de vie]
+- Mise à jour annuelle de la **matrice de cycle de vie technologique** (par technologie).
+
+#### 3. **Calendrier de communication**
+- 12 mois avant : **Annonce officielle**
+- 9 mois avant : **Rencontre bilatérale**
+- 6 mois avant : **Tests de migration disponibles**
+- 3 mois avant : **État d’avancement exigé**
+- 0 mois : **Retrait / mise à jour forcée**
+
+#### 4. **Mesures en cas de non-alignement**
+- Environnement isolé (VM, conteneur legacy)
+- Coût additionnel pour gestion spécifique
+- Clauses de non-conformité (si les risques sont majeurs)
+
+---
+
+## 💬 2. **Modèle de communication client (désuétude et migrations)**
+
+### 📣 **Communication type à envoyer 12 mois avant une mise à jour majeure :**
+
+---
+
+**Objet : Préavis de désuétude – Mise à jour de l’infrastructure [Nom de la technologie]**
+
+Madame, Monsieur,
+
+Dans le cadre de notre mandat de maintien des infrastructures hébergées, nous vous informons que [technologie] atteindra sa **fin de support interne le [date]**, en alignement avec nos politiques de sécurité et les recommandations des éditeurs.
+
+### Ce que cela signifie pour vous :
+- Tous les environnements basés sur [technologie actuelle] devront migrer vers [technologie cible] avant cette date.
+- Votre/vos application(s) hébergée(s) sur cette plateforme doivent être **validées et compatibles** avec la nouvelle version d’ici le [date limite].
+- Un **environnement de test** est disponible dès maintenant pour vous permettre d’effectuer vos validations.
+
+### Accompagnement proposé :
+- Support technique pour la migration.
+- Environnement isolé temporaire pour applications non migrables.
+- Revue conjointe de vos besoins applicatifs (si nécessaire).
+
+Nous vous invitons à planifier une rencontre de suivi dans les prochaines semaines pour discuter de l’impact et des actions à mener.
+
+Cordialement,  
+**[Votre nom / équipe]**  
+Architecte d’entreprise – [Nom de l’établissement]
+
