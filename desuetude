@@ -229,3 +229,32 @@ Cette approche vise à **concilier la modernisation de notre infrastructure** av
 ---
 
 Souhaites-tu que je t’aide à formuler une **fiche de demande de changement IAP** ou à rédiger une **note officielle à envoyer aux clients** pour expliquer la démarche ?
+
+Voici une version claire, professionnelle et fluide de ta présentation, structurée en trois parties : **Contexte**, **Situation actuelle**, et **Recommandations**.
+
+---
+
+### **Contexte**
+
+Dans le cadre de la gestion de l’infrastructure pour certains organismes, notre équipe est responsable des mises à jour des systèmes d’exploitation et de certains logiciels. Toutefois, les clients sont également responsables de la mise à jour de leurs propres applications. Une échéance avait été fixée à juillet 2024 pour compléter ces mises à jour, mais plusieurs clients ont demandé un report de cette échéance.
+
+---
+
+### **Situation actuelle (mai 2025)**
+
+* Plusieurs demandes de prolongation ont été formulées par les clients, repoussant la date limite à **fin 2025**, sous réserve qu’un **plan clair de correction de la désuétude** soit fourni.
+* **Aucun plan de communication officiel** n’a été établi pour les clients ayant demandé une dérogation.
+* **Trois clients sont encore en attente de confirmation** quant à leur conformité au-delà de la fin 2025.
+* La liste des clients ayant demandé une dérogation a été **transmise à l’équipe de sécurité** pour évaluer si des **mesures de mitigation sont nécessaires** concernant les composants reportés à 2025 ou au-delà.
+
+---
+
+### **Recommandations**
+
+* **Déterminer clairement l’équipe responsable** de la communication et du suivi auprès des clients ayant demandé une dérogation.
+* Positionner **l’équipe de sécurité** comme **l’équipe responsable** du suivi et de la communication, en lien avec un **directeur de l'information (DI) mandaté officiellement**.
+
+---
+
+Souhaites-tu que je transforme cela en diapositive PowerPoint ou que je t’aide à préparer une présentation orale ?
+
