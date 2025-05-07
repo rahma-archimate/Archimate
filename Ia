@@ -273,3 +273,35 @@ Souhaites-tu que je prépare aussi un **schéma d’architecture** pour cette op
 
 Souhaites-tu aussi un **slide comparatif résumé (tableau)** des trois options ?
 
+
+
+Très bonne idée — cela montre que tu anticipes les enjeux de **gouvernance** et de **sécurité**, ce qui est essentiel pour un projet impliquant l’IA et des contenus sensibles comme les IAP.
+
+Voici le contenu que tu peux utiliser pour ton **slide "Prochaines étapes"** :
+
+---
+
+### 🧩 **Prochaines étapes**
+
+#### 🔒 Rencontre avec l'équipe Sécurité TI
+
+* Valider les implications de sécurité (accès SharePoint, données sensibles, logs).
+* Déterminer les contrôles à mettre en place pour l’accès à l’IA (authentification, permissions).
+
+#### 👥 Détermination de l’équipe responsable
+
+* Identifier qui assurera :
+
+  * Le **suivi fonctionnel** (contenus, qualité des réponses, évolutions fonctionnelles).
+  * La **communication** vers les équipes TI (guide d’utilisation, sensibilisation).
+  * La **maintenance technique** (si option 2 ou 3 retenue).
+
+#### 📜 Officialisation des responsabilités
+
+* Documenter les rôles et responsabilités dans un **cadre de gouvernance clair**.
+* Faire approuver l’initiative (phase pilote / expérimentation) par les parties prenantes.
+
+---
+
+Souhaites-tu que je te propose une **formulation visuelle prête à insérer dans PowerPoint** (avec structure et icônes) ?
+
