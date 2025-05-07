@@ -221,6 +221,54 @@ Faciliter l’accès à ces informations via une **interface intelligente et con
 * Moins convivial pour les non-développeurs.
 * Nécessite maintenance du serveur local.
 
+
+Merci pour la précision ! Voici la version mise à jour de **l’Option 3** en tenant compte que **les fichiers restent stockés sur SharePoint**, même si l’IA et l’interface sont locales :
+
+---
+
+## 🟠 **Option 3 – Solution locale avec Python et accès SharePoint**
+
+### 🔧 Composants :
+
+* **LangChain / LlamaIndex** : framework pour orchestrer les interactions IA avec les documents.
+* **GPT (API OpenAI ou local comme GPT4All)** : moteur IA pour générer les réponses.
+* **Serveur local (Flask, FastAPI)** : interface web locale pour poser des questions.
+* **Connecteur SharePoint (via Microsoft Graph API ou `Office365-REST-Python-Client`)** : permet d’accéder aux documents à distance.
+* **Indexation locale (vector DB comme FAISS ou Chroma)** : pour permettre une recherche rapide une fois les documents récupérés.
+
+---
+
+### 🎯 **Rôle de chaque composant :**
+
+| Composant                        | Rôle                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| LangChain / LlamaIndex           | Orchestration : question → récupération des documents → appel à GPT → réponse. |
+| GPT (OpenAI ou local)            | Génère la réponse en langage naturel.                                          |
+| Serveur local (Flask / FastAPI)  | Interface pour l'utilisateur, consultation via navigateur.                     |
+| Connecteur SharePoint            | Téléchargement en direct des fichiers (Word, PDF, etc.) depuis SharePoint.     |
+| Indexation locale (FAISS/Chroma) | Indexe les fichiers extraits pour recherche sémantique rapide.                 |
+
+---
+
+### ✅ **Avantages :**
+
+* Accès direct à **SharePoint** sans avoir à copier les fichiers localement.
+* **Déploiement contrôlé en local** (utile si on veut éviter le cloud pour l’IA).
+* Solution **personnalisable** et **économique** si usage limité de GPT API.
+
+---
+
+### ⚠️ **Limites :**
+
+* Nécessite de **gérer l’authentification** à SharePoint (OAuth ou certificat).
+* Plus complexe à maintenir (infrastructure locale + connexion distante).
+* Pas d’interface native pour les utilisateurs non techniques (mais améliorable).
+
+---
+
+Souhaites-tu que je prépare aussi un **schéma d’architecture** pour cette option ?
+
+
 ---
 
 Souhaites-tu aussi un **slide comparatif résumé (tableau)** des trois options ?
